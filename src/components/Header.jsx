@@ -5,7 +5,7 @@ const Header = ({ headTitle, headExpanded }) => {
   return (
     <div className="head-container">
       <img
-        src="/img/head.svg"
+        src="%PUBLIC_URL%/img/head.svg"
         alt="head-img"
         className={`head-img ${
           headExpanded ? 'head-img-expanded' : 'head-img-contracted'
