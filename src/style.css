@@ -14,12 +14,15 @@ body {
     margin-top: 40px;
 }
 
-.heading{
+.heading {
     /* font-size: 36px; */
     font-weight: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     -webkit-transition: font-size 1s;
     transition: font-size 1s, font-size 1s;
+    margin: 5px;
+    justify-content: center;
+    text-align: justify;
 }
 .head-img {
     width: auto;
@@ -28,12 +31,12 @@ body {
 }
 
 .head-img-expanded {
-    max-width: 350px;
-    min-width: 330px;
+    max-width: 300px;
+    min-width: 280px;
 }
 .head-img-contracted {
-    max-width: 160px;
-    min-height: 140px;
+    max-width: 100px;
+    min-height: 80px;
 }
 
 .head-text {
@@ -51,6 +54,15 @@ body {
 }
 .head-img-contracted {
     font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .head-text-expanded {
+        font-size: 17px;
+    }
+    .heading-contracted {
+        font-size: 12px;
+    }
 }
 
 /* SearchBox */

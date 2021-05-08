@@ -5,7 +5,7 @@ const Header = ({ headTitle, headExpanded }) => {
     return (
       <div className='head-container'>
         <h2 className={`heading ${
-                    headExpanded ? 'head-text-expanded' : 'head-text-contracted'
+                    headExpanded ? 'head-text-expanded' : 'heading-contracted'
                 }`}>Find The Cool And Amazing Names For Your Websites🤩</h2>
             <img
                 src="https://raw.githubusercontent.com/imPGupta/TellName/1930f79bef36e52de27f0eaf46ce8434c4d4157c/img/head.svg"
