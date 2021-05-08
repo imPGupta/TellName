@@ -1,0 +1,109 @@
+/* App */
+body {
+    background: #033a5f;
+    overflow-x: hidden;
+    color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.head-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.head-img {
+    width: auto;
+    -webkit-transition: width 1s;
+    transition: max-width 1s, min-width 1s;
+}
+
+.head-img-expanded {
+    max-width: 350px;
+    min-width: 330px;
+}
+.head-img-contracted {
+    max-width: 160px;
+    min-height: 140px;
+}
+
+.head-text {
+    font-family: 'Monotype Corsiva';
+    margin: 5px 0 15px 0;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: 900;
+    -webkit-transition: font-size 1s;
+    transition: font-size 1s, font-size 1s;
+}
+
+.head-text-expanded {
+    font-size: 36px;
+}
+.head-img-contracted {
+    font-size: 12px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.search-input {
+    padding: 8px 15px;
+    font-size: 15px;
+    width: 250px;
+    border-width: 0;
+    border-color: skyblue;
+    border-style: hidden;
+    border-radius: 50px;
+    background: rgb(8, 181, 194);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgb(51, 232, 245);
+    text-shadow: 0px 0px 5px rgb(8, 181, 194);
+}
+
+.search-input::placeholder {
+    color: #ffffff;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+/* ResultsContainer */
+.results-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+}
+
+/* NameCard */
+.name-card {
+    color: #ffffff;
+    background: #08b5c2;
+    margin: 10px 15px;
+    min-width: 75px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(51, 232, 245);
+    transition: background 0.35s, min-width 1s;
+    display: flex;
+    justify-content: center;
+}
+.name-card:hover {
+    background: #0d78c08e;
+    box-shadow: 0 0 5px #1e99eb;
+}
+
+.result-name {
+    margin: 0;
+    font-weight: normal;
+    text-decoration: none;
+}
+.name-card a {
+    color: #ffffff;
+}
