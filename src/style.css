@@ -20,7 +20,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     -webkit-transition: font-size 1s;
     transition: font-size 1s, font-size 1s;
-    margin: 5px;
+    margin: 15px;
     justify-content: center;
     text-align: justify;
 }
@@ -58,7 +58,7 @@ body {
 
 @media (max-width: 768px) {
     .head-text-expanded {
-        font-size: 17px;
+        font-size: 25px;
     }
     .heading-contracted {
         font-size: 12px;
