@@ -11,7 +11,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 40px;
+}
+
+.heading{
+    /* font-size: 36px; */
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-transition: font-size 1s;
+    transition: font-size 1s, font-size 1s;
 }
 .head-img {
     width: auto;
@@ -45,6 +53,7 @@ body {
     font-size: 12px;
 }
 
+/* SearchBox */
 .search-container {
     display: flex;
     justify-content: center;
