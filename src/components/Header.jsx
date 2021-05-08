@@ -1,11 +1,12 @@
 import React from 'react';
+import headerImage from '../head.svg'
 import '../style.css';
 
 const Header = ({ headTitle, headExpanded }) => {
   return (
     <div className="head-container">
       <img
-        src="https://raw.githubusercontent.com/imPGupta/TellName/1ffbfa33f2a471099767cd8e5555e3f52abe6696/public/img/head.svg"
+        src={headerImage}
         alt="head-img"
         className={`head-img ${
           headExpanded ? 'head-img-expanded' : 'head-img-contracted'
