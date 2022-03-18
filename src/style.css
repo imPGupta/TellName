@@ -3,9 +3,8 @@ body {
     background: #033a5f;
     overflow-x: hidden;
     color: aquamarine;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Slabo 27px', serif;
 }
-
 /* Header */
 .head-container {
     display: flex;
@@ -17,7 +16,7 @@ body {
 .heading {
     /* font-size: 36px; */
     font-weight: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     -webkit-transition: font-size 1s;
     transition: font-size 1s, font-size 1s;
     margin: 15px;
@@ -40,7 +39,7 @@ body {
 }
 
 .head-text {
-    font-family: 'Monotype Corsiva';
+    /* font-family: 'Monotype Corsiva'; */
     margin: 5px 0 15px 0;
     color: rgb(255, 255, 255);
     font-style: normal;
